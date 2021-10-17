@@ -9,7 +9,7 @@ function clearAll() {
 }
 
 function calculate() {
-  let regex = /[+|-|*|/]/;
+  let regex = /[\+|-|\*|/]/;
   let operation = res.textContent.match(regex);
   let numbers = res.textContent.split(regex);
 
